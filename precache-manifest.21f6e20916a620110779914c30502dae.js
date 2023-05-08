@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b7d6ab63aa0dae0c1895",
+    "revision": "37ba05c7f4db79356971",
     "url": "/textUttam/static/css/main.75880463.chunk.css"
   },
   {
-    "revision": "b7d6ab63aa0dae0c1895",
-    "url": "/textUttam/static/js/main.b7d6ab63.chunk.js"
+    "revision": "37ba05c7f4db79356971",
+    "url": "/textUttam/static/js/main.37ba05c7.chunk.js"
   },
   {
     "revision": "3c11774c00c8fe3168dd",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/textUttam/static/js/runtime~main.c01aebfe.js"
   },
   {
-    "revision": "208706793c943a3640b6f6f833adb5c3",
+    "revision": "963b2131b98ff0cb452cb8e4201028a0",
     "url": "/textUttam/index.html"
   }
 ];
