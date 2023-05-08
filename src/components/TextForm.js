@@ -43,11 +43,11 @@ export default function TextForm(props) {
                 <div className="mb-3">
                     <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor:props.mode === `light`?`white`:`grey`,color:props.mode === `light`?`#0f0640`:`white`}} id="myBox" rows="10"></textarea>
                 </div>
-                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1`} onClick={handleUpClick}>Convert to Uppercase</button>
-                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1`} onClick={handleLoClick}>Convert to LowerCase</button>
-                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1`} onClick={handleCTClick}>Clear Text</button>
-                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1`} onClick={handleCopy}>Copy Text</button>
-                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1`} onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1 my-2`} onClick={handleUpClick}>Convert to Uppercase</button>
+                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1 my-2` } onClick={handleLoClick}>Convert to LowerCase</button>
+                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1 my-2`} onClick={handleCTClick}>Clear Text</button>
+                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1 my-2`} onClick={handleCopy}>Copy Text</button>
+                <button className={`btn btn-outline-${props.mode !== `light`?`light`:`primary`} mx-1 my-2`} onClick={handleExtraSpaces}>Remove Extra Spaces</button>
        
             </div>
             <div className="containe my-3" style={{color:props.mode === `light`?`#0f0640`:`white`}}>
